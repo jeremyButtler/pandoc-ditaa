@@ -21,7 +21,7 @@ pandoc --lua-filter pandoc-ditaa
 
 ```
 
-\`\`\`ditaa
+\```ditaa
 
 diagram
 
