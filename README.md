@@ -25,7 +25,7 @@ pandoc --lua-filter pandoc-ditaa.lua --filter pandoc-crossref --from markdown --
   - Change path to java using the ymal header: "java-path: /usr/local/jdk-1.8.0/bin/java"
 2. ditaa-path: path to ditaa aplication (can be used in ymal header)
   - Default target file: ditaa-0.11.0.jar, ditaa.jar, ditaa_0.9.jar (source forge download, no compile needed, but bit old)
-  - Default path: working directory, /usr/local/bin, C:\\\\program\\files
+  - Default path: working directory, /usr/local/bin
   - Change path to ditaa using the ymal header: "ditaa-path: /usr/local/bin/ditaa.jar"
 
 ## Markdown syntax:
