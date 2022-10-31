@@ -19,13 +19,14 @@ pandoc --lua-filter pandoc-ditaa
 
 ## Markdown syntax:
 
-` ```ditaa `
+````
+
+```ditaa
 
 diagram
 
 [optional description here]
 ```
-` ``` `
 
 ```
 ```ditaa
@@ -35,7 +36,7 @@ diagram
 
 [This is a figure]{ #fig:pandoc-crossref tag here }
 ```
-```
+````
 
 
 ## Example:
