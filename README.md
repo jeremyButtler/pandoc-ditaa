@@ -6,20 +6,25 @@ Pandoc-ditaa is a pandoc lua filter that uses ditaa to convert ascii digrams in 
 
 ditaa (https://github.com/stathissideris/ditaa)
 
-## Use:
+## How to use:
 
-pandoc --lua-filter pandoc-ditaa
+### Basic:
+
+pandoc --lua-filter pandoc-ditaa.lua --from markdown --to pdf -o file.pdf file.md
+
+### With pandoc-crossref (pandoc-ditaa.lua must come first):
+
+pandoc --lua-filter pandoc-ditaa.lua --filter pandoc-crossref --from markdown --to pdf -o file.pdf file.md
 
 ## Parameters:
 
 1. java-path: path to java (can be used in ymal header)
-  - Default: java (java in path), /usr/bin,,
-    JAVA_HOME (not sure is set up right), JRE_HOME (not sure if set up right)
-  - Change to java using the ymal header: java-path: /usr/local/jdk-1.8.0/bin/java
+  - Default: java (java in path), /usr/bin
+  - Change paht to java using the ymal header: "java-path: /usr/local/jdk-1.8.0/bin/java"
 2. ditaa-path: path to ditaa aplication (can be used in ymal header)
   - Default target file: ditaa-0.11.0.jar, ditaa.jar, ditaa_0.9.jar (source forge download, no compile needed, but bit old)
   - Default path: working directory, /usr/local/bin, C:\\\\program\\files
-  - Change path to ditaa using the ymal header: ditaa-path: /usr/local/bin/ditaa.jar
+  - Change path to ditaa using the ymal header: "ditaa-path: /usr/local/bin/ditaa.jar"
 
 ## Markdown syntax:
 
