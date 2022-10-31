@@ -27,8 +27,9 @@ diagram
 
 [optional description here]
 ```
+````
 
-```
+````
 ```ditaa
 [ditaa settings here]
 
@@ -41,7 +42,7 @@ diagram
 
 ## Example:
 
-```
+````
 ```ditaa
 [-S -W -E --scale 0.8]
 
@@ -83,7 +84,7 @@ diagram
   Steps used in the co-infection pipeline to detect co-infections.
 ]{ #fig:pipeline }
 ```
-```
+````
 
 To
 
