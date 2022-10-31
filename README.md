@@ -99,4 +99,4 @@ diagram
 
 To
 
-![An example image](ditaa0.png)
+![An example image](example/ditaa0.png)
