@@ -20,12 +20,14 @@ pandoc --lua-filter pandoc-ditaa
 ## Markdown syntax:
 
 ```
+
 ```ditaa
 
 diagram
 
 [optional description here]
 ```
+
 ```
 
 ```
