@@ -2,6 +2,8 @@
 
 Pandoc-ditaa is a pandoc lua filter that uses ditaa to convert ascii digrams in markdown files into images.
 
+Each image will be saved as ditaa(0-9).png. It is up to you to remove or rename them.
+
 ## Requires:
 
 ditaa (https://github.com/stathissideris/ditaa)
