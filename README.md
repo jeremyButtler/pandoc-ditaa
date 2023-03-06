@@ -100,3 +100,8 @@ diagram
 To
 
 ![An example image](example/ditaa0.png)
+
+## Updates:
+
+2023-03-06: Fixed issue were all code blocks would rendered whith ditaa
+    - Problem was "if not codeObj.attr.classes[1] == "ditaa"" would always evalute to true for nil
