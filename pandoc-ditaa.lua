@@ -282,8 +282,12 @@ function CodeBlock(
   -- Fun-? Sec-2 Sub-1: Check if code block is a ditaa block
   --****************************************************************************
 
+  if not codeBlockObj.attr.classes[1] then
+    return codeBlockObj;  -- If is nill (no attribute)
+  end
+
   if not codeBlockObj.attr.classes[1] == "ditaa" then
-    return codeBlockObj;  -- If not a file I want to look at
+    return codeBlockObj;  -- If is not a ditta block
   end
 
   --****************************************************************************
