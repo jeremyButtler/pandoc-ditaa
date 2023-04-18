@@ -6,6 +6,10 @@ Pandoc-ditaa is a pandoc lua filter that uses ditaa to convert ascii
 Each image will be saved as ditaa(0-9).png. It is up to you to remove
   or rename them.
 
+I updated the license to CCO because it has the same terms
+  and conditions as the unlicense (none), but is more
+  acknowledged than the unlicense. 
+
 ## Requires:
 
 ditaa (https://github.com/stathissideris/ditaa)
